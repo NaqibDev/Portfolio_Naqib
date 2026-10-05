@@ -40,7 +40,7 @@ const projectsData: ProjectItem[] = [
     num: "01",
     category: "Enterprise MIS & Infrastructure",
     year: "2025 – Present",
-    title: "Sapura Industrial Infrastructure & ERP Operations",
+    title: "Sapura Industrial Berhad",
     subtitle: "Management Information System — Sapura Industrial Berhad (Dec 2025 – Present)",
     description:
       "Administering mission-critical IT infrastructure and enterprise systems across automotive manufacturing environments. Managing Kingdee ERP inventory modules, MES server connectivity, TP-Link Omada network topologies (VLAN, DHCP, static routing), AlmaLinux remote services, and vendor equipment procurement.",
@@ -601,22 +601,22 @@ export default function PortfolioView() {
             <article className="grid gap-4 py-8 md:grid-cols-[5rem_1.4fr_1.6fr] items-baseline">
               <span className="font-mono text-xs tabular-nums text-[var(--muted2)]">01</span>
               <h3 className="text-xl font-semibold tracking-tight sm:text-2xl text-[var(--fg)]">
-                Fintech & Enterprise Microservices
+                Management Information Systems (MIS)
               </h3>
               <p className="max-w-md text-sm leading-relaxed text-[var(--muted)]">
-                Proven experience at JurisTech building scalable components for enterprise loan origination and
-                automated debt management supporting over 100,000 monthly active users.
+                Overseeing operational IT systems at Sapura Industrial Berhad, integrating production telemetry,
+                database integrity, and automated operational reporting.
               </p>
             </article>
 
             <article className="grid gap-4 py-8 md:grid-cols-[5rem_1.4fr_1.6fr] items-baseline">
               <span className="font-mono text-xs tabular-nums text-[var(--muted2)]">02</span>
               <h3 className="text-xl font-semibold tracking-tight sm:text-2xl text-[var(--fg)]">
-                Management Information Systems (MIS)
+                Fintech & Enterprise Microservices
               </h3>
               <p className="max-w-md text-sm leading-relaxed text-[var(--muted)]">
-                Overseeing operational IT systems at Sapura Industrial Berhad, integrating production telemetry,
-                database integrity, and automated operational reporting.
+                Proven experience at JurisTech building scalable components for enterprise loan origination and
+                automated debt management supporting over 100,000 monthly active users.
               </p>
             </article>
 
@@ -678,7 +678,7 @@ export default function PortfolioView() {
                   Enterprise Roles
                 </dt>
                 <dd className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl text-[var(--fg)]">
-                  JurisTech & Sapura
+                  Sapura & JurisTech
                 </dd>
               </div>
             </dl>
@@ -1317,7 +1317,7 @@ export default function PortfolioView() {
                 GitHub
               </a>
               <span>•</span>
-              <span>UiTM • JurisTech • Sapura Industrial Berhad</span>
+              <span>Sapura Industrial Berhad • JurisTech • UiTM</span>
             </div>
           </div>
         </div>
