@@ -274,9 +274,6 @@ export default function PortfolioView() {
             className="group flex items-center gap-2 text-sm font-semibold tracking-[-0.03em] text-[var(--fg)]"
           >
             <span>Muhammad Naqib Aiman</span>
-            <span className="hidden sm:inline font-mono text-xs text-[var(--muted)] opacity-75">
-              / MIS & SWE
-            </span>
           </a>
 
           {/* Desktop Nav */}
