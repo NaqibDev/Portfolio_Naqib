@@ -408,10 +408,7 @@ export default function PortfolioView() {
             <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg sm:leading-8">
               Specializing in enterprise systems and software engineering. Currently overseeing MIS infrastructure
               and production systems at{" "}
-              <strong className="font-semibold text-[var(--fg)]">Sapura Industrial Berhad</strong>,
-              following enterprise software engineering at{" "}
-              <strong className="font-semibold text-[var(--fg)]">JurisTech</strong> supporting 100k+ monthly users.
-              UiTM Computer Science (Hons) graduate.
+              <strong className="font-semibold text-[var(--fg)]">Sapura Industrial Berhad</strong>.
             </p>
 
             <p className="mt-5 text-sm leading-6 text-[var(--muted)]">
