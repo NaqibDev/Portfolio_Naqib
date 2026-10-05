@@ -1272,26 +1272,17 @@ export default function PortfolioView() {
 
             <div className="md:col-span-4">
               <h4 className="mb-4 text-xs uppercase tracking-[0.2em] text-[var(--muted)] font-mono font-semibold">
-                Direct Contact
+                Elsewhere
               </h4>
               <ul className="space-y-2.5 text-sm">
                 <li>
                   <a
-                    href="mailto:naqibaiman92@gmail.com"
-                    className="inline-flex items-center gap-1.5 text-[var(--muted)] hover:text-[var(--fg)] transition-colors"
-                  >
-                    <span>naqibaiman92@gmail.com</span>
-                    <ArrowUpRight className="w-3.5 h-3.5" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://wa.me/601161000221"
+                    href="https://www.linkedin.com/in/naqibaimandev/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-[var(--muted)] hover:text-[var(--fg)] transition-colors"
+                    className="inline-flex items-center gap-1.5 text-[var(--muted)] hover:text-[var(--fg)] transition-colors font-medium"
                   >
-                    <span>+6011-61000221 (WhatsApp)</span>
+                    <span>LinkedIn</span>
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </a>
                 </li>
@@ -1300,20 +1291,29 @@ export default function PortfolioView() {
                     href="https://github.com/NaqibDev/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-[var(--muted)] hover:text-[var(--fg)] transition-colors"
+                    className="inline-flex items-center gap-1.5 text-[var(--muted)] hover:text-[var(--fg)] transition-colors font-medium"
                   >
-                    <span>GitHub (@NaqibDev)</span>
+                    <span>GitHub</span>
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/naqibaimandev/"
+                    href="mailto:naqibaiman92@gmail.com"
+                    className="inline-flex items-center gap-1.5 text-[var(--muted)] hover:text-[var(--fg)] transition-colors font-medium"
+                  >
+                    <span>Email</span>
+                    <ArrowUpRight className="w-3.5 h-3.5" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://wa.me/601161000221"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-[var(--muted)] hover:text-[var(--fg)] transition-colors"
+                    className="inline-flex items-center gap-1.5 text-[var(--muted)] hover:text-[var(--fg)] transition-colors font-medium"
                   >
-                    <span>LinkedIn (naqibaimandev)</span>
+                    <span>WhatsApp</span>
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </a>
                 </li>
@@ -1321,9 +1321,29 @@ export default function PortfolioView() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-between gap-4 border-t border-[var(--hairline)] pt-8 font-mono text-xs tabular-nums text-[var(--muted)] sm:flex-row">
+          <div className="flex flex-col justify-between gap-4 border-t border-[var(--hairline)] pt-8 font-mono text-xs tabular-nums text-[var(--muted)] sm:flex-row items-center">
             <p>© {new Date().getFullYear()} MUHAMMAD NAQIB AIMAN BIN YUSRI — All rights reserved.</p>
-            <p>UiTM • JurisTech • Sapura Industrial Berhad</p>
+            <div className="flex items-center gap-4">
+              <a
+                href="https://www.linkedin.com/in/naqibaimandev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[var(--fg)] transition-colors underline"
+              >
+                LinkedIn
+              </a>
+              <span>•</span>
+              <a
+                href="https://github.com/NaqibDev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[var(--fg)] transition-colors underline"
+              >
+                GitHub
+              </a>
+              <span>•</span>
+              <span>UiTM • JurisTech • Sapura Industrial Berhad</span>
+            </div>
           </div>
         </div>
       </footer>
