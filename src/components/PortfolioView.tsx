@@ -80,12 +80,12 @@ const projectsData: ProjectItem[] = [
     category: "Enterprise .NET / Blazor",
     year: "2024",
     title: "Enterprise Client Management Applications",
-    subtitle: "Software Developer Intern — IT Chenta Enterprise",
+    subtitle: "Software Developer — IT Chenta Enterprise",
     description:
       "Developed modular web applications using C#, .NET, and Blazor with MudBlazor, Radzen, and Telerik component libraries. Led the architectural restructuring of a legacy client codebase to boost maintainability and reduce debugging overhead.",
     outcome: "Led project restructuring, improving code maintainability and UX delivery across sprints",
     tech: ["C#", ".NET", "Blazor", "MudBlazor", "Radzen", "Telerik", "Git"],
-    badge: "SWE Intern",
+    badge: "Software Developer",
   },
   {
     id: "taskmaster-mobile",
@@ -146,7 +146,7 @@ const archiveProjects = [
     year: "2024",
     title: "Modular Client Portal & Component Refactor",
     company: "IT Chenta Enterprise",
-    role: "Software Developer Intern",
+    role: "Software Developer",
     tech: ["C#", ".NET", "Blazor", "MudBlazor"],
   },
   {
@@ -827,7 +827,7 @@ export default function PortfolioView() {
                     </span>
                     <div className="col-span-11 sm:col-span-7">
                       <h4 className="text-2xl font-bold tracking-tight sm:text-3xl text-[var(--fg)]">
-                        Software Developer Intern
+                        Software Developer
                       </h4>
                       <p className="mt-1 text-sm font-medium text-[var(--muted)]">
                         IT Chenta Enterprise
