@@ -422,10 +422,10 @@ export default function PortfolioView() {
               Bachelor of Computer Science (Honours) graduate from{" "}
               <strong className="font-semibold text-[var(--fg)]">UiTM</strong> majoring in Soft Computing.
               Management Information Systems at{" "}
-              <strong className="font-semibold text-[var(--fg)]">Sapura Industrial Berhad</strong>, with proven
-              enterprise software engineering experience at{" "}
-              <strong className="font-semibold text-[var(--fg)]">JurisTech</strong> shipping platforms for 100,000+
-              monthly banking users.
+              <strong className="font-semibold text-[var(--fg)]">Sapura Industrial Berhad</strong> (Nov 2025 – Present),
+              with proven enterprise software engineering experience from{" "}
+              <strong className="font-semibold text-[var(--fg)]">JurisTech</strong> (Jun 2025 – Nov 2025) shipping
+              platforms for 100,000+ monthly banking users.
             </p>
 
             <p className="mt-5 text-sm leading-6 text-[var(--muted)]">
@@ -740,7 +740,7 @@ export default function PortfolioView() {
                       </p>
                     </div>
                     <p className="col-span-11 col-start-2 font-mono text-xs tabular-nums text-[var(--muted)] sm:col-span-4 sm:col-start-auto sm:text-right">
-                      Present
+                      Nov 2025 – Present
                     </p>
                   </div>
                   <ul className="ml-[calc(8.333%+1rem)] mt-5 list-disc space-y-2 pl-4 text-sm leading-relaxed text-[var(--muted)]">
@@ -774,7 +774,7 @@ export default function PortfolioView() {
                       </p>
                     </div>
                     <p className="col-span-11 col-start-2 font-mono text-xs tabular-nums text-[var(--muted)] sm:col-span-4 sm:col-start-auto sm:text-right">
-                      June 2025 – Present
+                      Jun 2025 – Nov 2025
                     </p>
                   </div>
                   <ul className="ml-[calc(8.333%+1rem)] mt-5 list-disc space-y-2 pl-4 text-sm leading-relaxed text-[var(--muted)]">
@@ -1040,7 +1040,18 @@ export default function PortfolioView() {
                     <span>Discuss an Opportunity</span>
                     <ArrowUpRight className="w-4 h-4" />
                   </a>
-                  <p className="mt-3 text-xs font-mono text-[var(--muted)]">naqibaiman92@gmail.com</p>
+                  <div className="mt-3 flex items-center justify-between text-xs font-mono text-[var(--muted)]">
+                    <span>naqibaiman92@gmail.com</span>
+                    <a
+                      href="https://www.linkedin.com/in/naqibaimandev/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[var(--fg)] font-semibold underline hover:opacity-70 transition-opacity flex items-center gap-1"
+                    >
+                      <span>LinkedIn</span>
+                      <ArrowUpRight className="w-3 h-3" />
+                    </a>
+                  </div>
                 </div>
 
                 <div className="bg-[var(--bg)] p-6 border border-[var(--hairline-strong)]">
@@ -1198,8 +1209,8 @@ export default function PortfolioView() {
                 Muhammad Naqib Aiman Bin Yusri
               </h3>
               <p className="max-w-sm text-sm leading-relaxed text-[var(--muted)]">
-                Bachelor of Computer Science (Hons.) from UiTM. Software Engineer at JurisTech and MIS at Sapura
-                Industrial Berhad. Engineering resilient software architectures.
+                Bachelor of Computer Science (Hons.) from UiTM. Management Information Systems at Sapura Industrial
+                Berhad (Nov 2025 – Present) and former Software Engineer at JurisTech (Jun 2025 – Nov 2025).
               </p>
             </div>
 
@@ -1258,23 +1269,23 @@ export default function PortfolioView() {
                 </li>
                 <li>
                   <a
-                    href="https://github.com"
+                    href="https://github.com/NaqibDev/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-[var(--muted)] hover:text-[var(--fg)] transition-colors"
                   >
-                    <span>GitHub Profile</span>
+                    <span>GitHub (@NaqibDev)</span>
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/naqibaimandev/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-[var(--muted)] hover:text-[var(--fg)] transition-colors"
                   >
-                    <span>LinkedIn Profile</span>
+                    <span>LinkedIn (naqibaimandev)</span>
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </a>
                 </li>
