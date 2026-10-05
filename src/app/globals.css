@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #e9e9e7;
+  --fg: #171717;
+  --muted: #5f5f5a;
+  --muted-2: #696964;
+  --accent: #171717;
+  --hairline: hsla(0, 0%, 9%, 0.12);
+  --hairline-strong: hsla(0, 0%, 9%, 0.28);
+  --surface-hover: hsla(0, 0%, 100%, 0.35);
+  --surface-card: #f2f2f0;
+}
+
+@theme {
+  --font-sans: var(--font-poppins), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --color-paper: var(--bg);
+  --color-ink: var(--fg);
+  --color-muted: var(--muted);
+  --color-muted2: var(--muted-2);
+  --color-accent: var(--accent);
+  --color-hairline: var(--hairline);
+  --color-hairline-strong: var(--hairline-strong);
+  --color-surface: var(--surface-hover);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-poppins), system-ui, -apple-system, sans-serif;
+  letter-spacing: -0.012em;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--fg);
+  color: var(--bg);
+}
+
+/* Custom scrollbar matching editorial aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--hairline-strong);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-2);
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
