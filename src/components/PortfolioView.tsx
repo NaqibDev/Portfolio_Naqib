@@ -36,21 +36,8 @@ interface ProjectItem {
 
 const projectsData: ProjectItem[] = [
   {
-    id: "juristech-fintech",
-    num: "01",
-    category: "Fintech & Banking",
-    year: "2025",
-    title: "JurisTech Enterprise Lending & Workflow Engine",
-    subtitle: "Software Engineer — JurisTech",
-    description:
-      "Structured and optimized mission-critical relational databases through advanced normalization. Partnered across engineering squads to deliver high-throughput web solutions enabling new loan offerings and supporting a customer base exceeding 100,000 monthly users.",
-    outcome: "Engineered scalable microservices and normalized schema serving 100,000+ monthly users",
-    tech: ["PHP", "SQL Server", "JavaScript", "Microservices", "Agile/Scrum", "REST APIs"],
-    badge: "Fintech Enterprise",
-  },
-  {
     id: "sapura-mis",
-    num: "02",
+    num: "01",
     category: "Enterprise MIS & Infrastructure",
     year: "2025 – Present",
     title: "Sapura Industrial Infrastructure & ERP Operations",
@@ -63,7 +50,7 @@ const projectsData: ProjectItem[] = [
   },
   {
     id: "multivendor-ecommerce",
-    num: "03",
+    num: "02",
     category: "AI & Soft Computing",
     year: "2024",
     title: "Multi-Vendor Marketplace & Recommendation System",
@@ -76,7 +63,7 @@ const projectsData: ProjectItem[] = [
   },
   {
     id: "it-chenta-dotnet",
-    num: "04",
+    num: "03",
     category: "Enterprise .NET / Blazor",
     year: "2024",
     title: "Enterprise Client Management Applications",
@@ -89,7 +76,7 @@ const projectsData: ProjectItem[] = [
   },
   {
     id: "taskmaster-mobile",
-    num: "05",
+    num: "04",
     category: "Mobile & Cloud Sync",
     year: "2023",
     title: "TaskMaster Real-Time Productivity App",
@@ -101,7 +88,7 @@ const projectsData: ProjectItem[] = [
   },
   {
     id: "escooter-rental",
-    num: "06",
+    num: "05",
     category: "Web & Payment Gateway",
     year: "2023",
     title: "E-Scooter Urban Rental & Booking System",
@@ -531,7 +518,7 @@ export default function PortfolioView() {
                   <div className="mb-10 flex items-start justify-between gap-6 border-b border-[var(--hairline)] pb-5">
                     <div className="flex items-center gap-3">
                       <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)] font-mono">
-                        {project.num} / 06
+                        {project.num} / 05
                       </p>
                       {project.badge && (
                         <span className="border border-[var(--hairline-strong)] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.12em] bg-white/70">
@@ -881,18 +868,6 @@ export default function PortfolioView() {
                   </p>
                   <p className="mt-2 text-xs text-[var(--muted)]">
                     FYP Supervisor: Mohd Taufik Mishan
-                  </p>
-                </li>
-
-                <li className="border-b border-[var(--hairline)] py-8">
-                  <h4 className="text-base font-semibold leading-snug text-[var(--fg)]">
-                    Sijil Tinggi Persekolahan Malaysia (STPM)
-                  </h4>
-                  <p className="mt-1 text-sm text-[var(--muted)]">
-                    Business Study
-                  </p>
-                  <p className="mt-3 font-mono text-xs tabular-nums text-[var(--muted)]">
-                    2018 – 2019
                   </p>
                 </li>
               </ul>
