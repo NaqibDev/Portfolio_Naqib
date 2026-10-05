@@ -51,15 +51,15 @@ const projectsData: ProjectItem[] = [
   {
     id: "sapura-mis",
     num: "02",
-    category: "Enterprise MIS",
-    year: "2026",
-    title: "Sapura Industrial Operations & MIS Portal",
-    subtitle: "Management Information System — Sapura Industrial Berhad",
+    category: "Enterprise MIS & Infrastructure",
+    year: "2025 – Present",
+    title: "Sapura Industrial Infrastructure & ERP Operations",
+    subtitle: "Management Information System — Sapura Industrial Berhad (Dec 2025 – Present)",
     description:
-      "Spearheading the modernization of internal Information Systems across automotive component manufacturing divisions. Integrating plant-floor telemetry, centralizing data reporting, and mitigating system downtime for executive operations.",
-    outcome: "Eliminated reporting latency and unified disparate shop-floor metrics",
-    tech: ["Next.js", "TypeScript", "SQL Server", "REST APIs", "PowerBI", "Tailwind CSS"],
-    badge: "MIS Role",
+      "Administering mission-critical IT infrastructure and enterprise systems across automotive manufacturing environments. Managing Kingdee ERP inventory modules, MES server connectivity, TP-Link Omada network topologies (VLAN, DHCP, static routing), AlmaLinux remote services, and vendor equipment procurement.",
+    outcome: "High network stability, seamless ERP operations, and resilient MES server connectivity",
+    tech: ["ERP (Kingdee)", "MES Systems", "TP-Link Omada", "Linux (AlmaLinux)", "TCP/IP & VLAN", "SQL Server"],
+    badge: "Current Role",
   },
   {
     id: "multivendor-ecommerce",
@@ -422,7 +422,7 @@ export default function PortfolioView() {
               Bachelor of Computer Science (Honours) graduate from{" "}
               <strong className="font-semibold text-[var(--fg)]">UiTM</strong> majoring in Soft Computing.
               Management Information Systems at{" "}
-              <strong className="font-semibold text-[var(--fg)]">Sapura Industrial Berhad</strong> (Nov 2025 – Present),
+              <strong className="font-semibold text-[var(--fg)]">Sapura Industrial Berhad</strong> (Dec 2025 – Present),
               with proven enterprise software engineering experience from{" "}
               <strong className="font-semibold text-[var(--fg)]">JurisTech</strong> (Jun 2025 – Nov 2025) shipping
               platforms for 100,000+ monthly banking users.
@@ -740,23 +740,45 @@ export default function PortfolioView() {
                       </p>
                     </div>
                     <p className="col-span-11 col-start-2 font-mono text-xs tabular-nums text-[var(--muted)] sm:col-span-4 sm:col-start-auto sm:text-right">
-                      Nov 2025 – Present
+                      December 2025 – Present
                     </p>
                   </div>
-                  <ul className="ml-[calc(8.333%+1rem)] mt-5 list-disc space-y-2 pl-4 text-sm leading-relaxed text-[var(--muted)]">
+                  <ul className="ml-[calc(8.333%+1rem)] mt-5 list-disc space-y-2.5 pl-4 text-sm leading-relaxed text-[var(--muted)]">
                     <li>
-                      Managing and optimizing organizational Information Systems across automotive component
-                      manufacturing and corporate operations.
+                      <strong className="font-semibold text-[var(--fg)]">Network Infrastructure & Diagnostics:</strong> Monitor and maintain network performance, ensuring stable connectivity across office and production environments. Configure and manage network infrastructure including routers, switches, and Wi-Fi systems (e.g., TP-Link Omada). Troubleshoot latency, connectivity drops, and IP configuration issues using tools like ping and traceroute.
                     </li>
                     <li>
-                      Overseeing core database integrity, coordinating system enhancements, and streamlining internal
-                      data reporting workflows for decision-makers.
+                      <strong className="font-semibold text-[var(--fg)]">Enterprise Systems & MES Server Administration:</strong> Support ERP system operations (e.g., Kingdee), covering inventory-related tasks and system usage assistance. Assist in server and system administration, including MES server connectivity and deployment support. Setup remote access and remote desktop services on Linux/AlmaLinux systems via RDP.
                     </li>
                     <li>
-                      Integrating operational monitoring tools to reduce downtime and ensure real-time visibility into
-                      production metrics.
+                      <strong className="font-semibold text-[var(--fg)]">Data Operations & System Integration:</strong> Assist in data preparation and system data import processes following standardized database templates. Participate in plant-wide infrastructure setup including CCTV installation, IP configuration, and security monitoring.
+                    </li>
+                    <li>
+                      <strong className="font-semibold text-[var(--fg)]">IT Support & Vendor Procurement:</strong> Coordinate with external vendors for IT equipment procurement and verification (e.g., firewall, NAS, SFP modules). Handle IT support tasks including laptop troubleshooting, hardware diagnostics (battery/charging), peripheral setup, and maintain comprehensive technical documentation.
                     </li>
                   </ul>
+
+                  {/* Sapura Key Skills Badges */}
+                  <div className="ml-[calc(8.333%+1rem)] mt-5 flex flex-wrap gap-1.5 pl-4">
+                    {[
+                      "Networking: TCP/IP, DHCP, Static IP, VLAN, Wi-Fi Bridge",
+                      "TP-Link Omada",
+                      "Remote Desktop (RDP)",
+                      "Linux (AlmaLinux)",
+                      "ERP (Kingdee)",
+                      "MES Environment",
+                      "Firewall & NAS",
+                      "Hardware Diagnostics",
+                      "Vendor Coordination",
+                    ].map((skill) => (
+                      <span
+                        key={skill}
+                        className="border border-[var(--hairline)] bg-white/60 px-2 py-0.5 font-mono text-[11px] text-[var(--fg)]"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
                 </li>
 
                 {/* 02: JurisTech */}
@@ -905,6 +927,12 @@ export default function PortfolioView() {
                 </h4>
                 <div className="flex flex-wrap gap-2 text-xs">
                   {[
+                    "ERP (Kingdee)",
+                    "MES Systems",
+                    "TP-Link Omada",
+                    "Linux (AlmaLinux)",
+                    "TCP/IP & VLAN",
+                    "Remote Desktop (RDP)",
                     "C#",
                     ".NET",
                     "Blazor",
@@ -1210,7 +1238,7 @@ export default function PortfolioView() {
               </h3>
               <p className="max-w-sm text-sm leading-relaxed text-[var(--muted)]">
                 Bachelor of Computer Science (Hons.) from UiTM. Management Information Systems at Sapura Industrial
-                Berhad (Nov 2025 – Present) and former Software Engineer at JurisTech (Jun 2025 – Nov 2025).
+                Berhad (Dec 2025 – Present) and former Software Engineer at JurisTech (Jun 2025 – Nov 2025).
               </p>
             </div>
 
