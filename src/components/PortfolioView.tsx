@@ -394,9 +394,8 @@ export default function PortfolioView() {
                 sizes="(min-width: 1280px) 28rem, (min-width: 1024px) 34vw, (min-width: 640px) 60vw, 100vw"
               />
             </div>
-            <figcaption className="flex items-center justify-between gap-4 border-t border-[var(--hairline-strong)] px-1 pt-3 text-[0.68rem] font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
+            <figcaption className="border-t border-[var(--hairline-strong)] px-1 pt-3 text-[0.68rem] font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
               <span>Muhammad Naqib Aiman</span>
-              <span className="font-mono text-[var(--fg)]">MIS Engineer • Full-Stack Developer</span>
             </figcaption>
           </figure>
 
