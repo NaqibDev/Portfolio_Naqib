@@ -380,7 +380,7 @@ export default function PortfolioView() {
             </div>
 
             <h1 className="mt-8 max-w-5xl text-5xl font-semibold leading-[0.98] tracking-[-0.055em] text-[var(--fg)] sm:text-7xl lg:text-7xl xl:text-8xl">
-              From enterprise logic to resilient software systems.
+              Building reliable enterprise systems and scalable software.
             </h1>
           </div>
 
@@ -399,20 +399,19 @@ export default function PortfolioView() {
             </div>
             <figcaption className="flex items-center justify-between gap-4 border-t border-[var(--hairline-strong)] px-1 pt-3 text-[0.68rem] font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
               <span>Muhammad Naqib Aiman</span>
-              <span className="font-mono text-[var(--fg)]">UiTM CS (Hons) • MIS</span>
+              <span className="font-mono text-[var(--fg)]">MIS Engineer • Full-Stack Developer</span>
             </figcaption>
           </figure>
 
           {/* Hero Bio & Quick Actions */}
           <div className="lg:col-start-1 lg:row-start-2">
             <p className="max-w-2xl text-base leading-7 text-[var(--muted)] sm:text-lg sm:leading-8">
-              Bachelor of Computer Science (Honours) graduate from{" "}
-              <strong className="font-semibold text-[var(--fg)]">UiTM</strong> majoring in Soft Computing.
-              Management Information Systems at{" "}
-              <strong className="font-semibold text-[var(--fg)]">Sapura Industrial Berhad</strong> (Dec 2025 – Present),
-              with proven enterprise software engineering experience from{" "}
-              <strong className="font-semibold text-[var(--fg)]">JurisTech</strong> (Jun 2025 – Nov 2025) shipping
-              platforms for 100,000+ monthly banking users.
+              Specializing in enterprise systems and software engineering. Currently overseeing MIS infrastructure
+              and production systems at{" "}
+              <strong className="font-semibold text-[var(--fg)]">Sapura Industrial Berhad</strong>,
+              following enterprise software engineering at{" "}
+              <strong className="font-semibold text-[var(--fg)]">JurisTech</strong> supporting 100k+ monthly users.
+              UiTM Computer Science (Hons) graduate.
             </p>
 
             <p className="mt-5 text-sm leading-6 text-[var(--muted)]">
